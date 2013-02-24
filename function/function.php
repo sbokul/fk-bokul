@@ -1,7 +1,7 @@
 <?php
 require_once("../cms-admin/db/dba.php");
 db_connect();
-$path="../templete/bbschool/";
+$path="../template/bbschool/";
 function title()
 {
 	$title_query=query("select `title` from `global_set` limit 1");
@@ -56,9 +56,13 @@ function main_menu()
 }
 function content()
 {
-	$p_id=$_GET['p_id'];
-	$content_query=query("select `menu_name`, `content`, `is_gallery` from `menus` where `menu_id`='$p_id';");
-	$content_result=mysql_fetch_array($content_query);
+    if(isset($_GET['p_id']))
+    {
+        $p_id = $_GET['p_id'];
+        $content_query=query("select `menu_name`, `content`, `is_gallery` from `menus` where `menu_id`='$p_id';");
+        $content_result=mysql_fetch_array($content_query);
+    }
+
 	if(isset($_GET['sub_id']))
 	{
 		$p_id=$_GET['sub_id'];
