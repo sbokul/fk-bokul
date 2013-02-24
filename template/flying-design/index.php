@@ -6,18 +6,18 @@
     <meta name="author" content="Cocktail Dresses">
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="<?php echo $path; ?>css/main.css">
     <!--<script src="/js/jquery-1.7.1.min.js"></script>-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.js"></script>
 
     <!-- REVOLUTION BANNER CSS SETTINGS -->
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen"/>
-    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>css/responsive.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="<?php echo $path; ?>rs-plugin/css/settings.css" media="screen"/>
 
 
     <!-- REVOLUTION BANNER JS FILES  -->
-    <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
-    <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="<?php echo $path; ?>js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="<?php echo $path; ?>js/jquery.themepunch.revolution.min.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <style type="text/css">
@@ -153,7 +153,7 @@
             <td>
                 <table width="1000" border="0" cellspacing="0" cellpadding="0">
                     <tr>
-                        <td width="200"><img src="images/flying.jpg" alt="Flying Kites" width="200" height="100"></td>
+                        <td width="200"><img src="<?php echo $path; ?>images/flying.jpg" alt="Flying Kites" width="200" height="100"></td>
                         <td width="704" align="center" valign="bottom">
                             <table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
                                 <tr>
@@ -364,9 +364,9 @@
                         <td width="96" align="right" valign="bottom">
                             <table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
                                 <tr>
-                                    <td><img src="images/facebook.png" alt="Facebook" width="32" height="32"></td>
-                                    <td><img src="images/twitter.png" alt="Twitter" width="32" height="32"></td>
-                                    <td><img src="images/google.png" alt="google" width="32" height="32"></td>
+                                    <td><img src="<?php echo $path; ?>images/facebook.png" alt="Facebook" width="32" height="32"></td>
+                                    <td><img src="<?php echo $path; ?>images/twitter.png" alt="Twitter" width="32" height="32"></td>
+                                    <td><img src="<?php echo $path; ?>images/google.png" alt="google" width="32" height="32"></td>
                                 </tr>
                             </table>
                         </td>
@@ -393,9 +393,9 @@
 <ul>
 <!-- THE FIRST SLIDE -->
 <li data-transition="fade" data-slotamount="10" data-masterspeed="300" data-link="http://www.google.de"
-    data-target="_blank" data-slideindex="back" data-thumb="images/thumbs/thumb1.jpg">
+    data-target="_blank" data-slideindex="back" data-thumb="<?php echo $path; ?>images/thumbs/thumb1.jpg">
     <!-- THE MAIN IMAGE IN THE SLIDE -->
-    <img src="images/slides/slide13.jpg">
+    <img src="<?php echo $path; ?>images/slides/slide13.jpg">
 
     <!-- THE CAPTIONS OF THE FIRST SLIDE -->
     <div class="caption large_text sfb fadeout"
@@ -414,90 +414,90 @@
          data-y="131"
          data-speed="600"
          data-start="1100"
-         data-easing="easeOutExpo"><img src="images/slides/p1.jpg" alt="Image 2"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p1.jpg" alt="Image 2"></div>
 
     <div class="caption randomrotate"
          data-x="90"
          data-y="206"
          data-speed="600"
          data-start="1200"
-         data-easing="easeOutExpo"><img src="images/slides/p2.jpg" alt="Image 3"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p2.jpg" alt="Image 3"></div>
 
     <div class="caption randomrotate"
          data-x="205"
          data-y="140"
          data-speed="600"
          data-start="1300"
-         data-easing="easeOutExpo"><img src="images/slides/p3.jpg" alt="Image 4"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p3.jpg" alt="Image 4"></div>
 
     <div class="caption randomrotate"
          data-x="188"
          data-y="246"
          data-speed="300"
          data-start="1400"
-         data-easing="easeOutExpo"><img src="images/slides/p4.jpg" alt="Image 5"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p4.jpg" alt="Image 5"></div>
 
     <div class="caption randomrotate"
          data-x="55"
          data-y="316"
          data-speed="600"
          data-start="1500"
-         data-easing="easeOutExpo"><img src="images/slides/p5.jpg" alt="Image 6"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p5.jpg" alt="Image 6"></div>
 
     <div class="caption randomrotate"
          data-x="173"
          data-y="329"
          data-speed="300"
          data-start="1600"
-         data-easing="easeOutExpo"><img src="images/slides/p6.jpg" alt="Image 7"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p6.jpg" alt="Image 7"></div>
 
     <div class="caption randomrotate"
          data-x="255"
          data-y="294"
          data-speed="300"
          data-start="1700"
-         data-easing="easeOutExpo"><img src="images/slides/p7.jpg" alt="Image 8"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p7.jpg" alt="Image 8"></div>
 
     <div class="caption randomrotate"
          data-x="275"
          data-y="166"
          data-speed="300"
          data-start="1800"
-         data-easing="easeOutExpo"><img src="images/slides/p8.jpg" alt="Image 9"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p8.jpg" alt="Image 9"></div>
 
     <div class="caption randomrotate"
          data-x="84"
          data-y="113"
          data-speed="300"
          data-start="1900"
-         data-easing="easeOutExpo"><img src="images/slides/p9.jpg" alt="Image 10"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p9.jpg" alt="Image 10"></div>
 
     <div class="caption randomrotate"
          data-x="26"
          data-y="225"
          data-speed="300"
          data-start="2000"
-         data-easing="easeOutExpo"><img src="images/slides/p10.jpg" alt="Image 11"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p10.jpg" alt="Image 11"></div>
 
     <div class="caption randomrotate"
          data-x="110"
          data-y="187"
          data-speed="300"
          data-start="2100"
-         data-easing="easeOutExpo"><img src="images/slides/p11.jpg" alt="Image 12"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p11.jpg" alt="Image 12"></div>
 
     <div class="caption randomrotate"
          data-x="183"
          data-y="221"
          data-speed="300"
          data-start="2200"
-         data-easing="easeOutExpo"><img src="images/slides/p12.jpg" alt="Image 13"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/p12.jpg" alt="Image 13"></div>
 </li>
 
 <!-- THE SECOND SLIDE -->
 <li data-transition="papercut" data-slotamount="15" data-masterspeed="300" data-link="http://www.ibm.de"
-    data-target="_blank" data-delay="9400" data-thumb="images/thumbs/thumb2.jpg">
-    <img src="images/slides/slide21.jpg">
+    data-target="_blank" data-delay="9400" data-thumb="<?php echo $path; ?>images/thumbs/thumb2.jpg">
+    <img src="<?php echo $path; ?>images/slides/slide21.jpg">
 
     <div class="caption very_big_white lfl stl"
          data-x="18"
@@ -522,7 +522,7 @@
          data-speed="600"
          data-start="1100"
          data-easing="easeOutExpo" data-end="3100" data-endspeed="600" data-endeasing="easeInSine"><img
-            src="images/slides/drink1.jpg" alt="Image 3"></div>
+            src="<?php echo $path; ?>images/slides/drink1.jpg" alt="Image 3"></div>
 
     <div class="caption bold_red_text sft stb"
          data-x="720"
@@ -546,7 +546,7 @@
          data-speed="600"
          data-start="3600"
          data-easing="easeOutExpo" data-end="5600" data-endspeed="600" data-endeasing="easeInSine"><img
-            src="images/slides/drink2.jpg" alt="Image 6"></div>
+            src="<?php echo $path; ?>images/slides/drink2.jpg" alt="Image 6"></div>
 
     <div class="caption bold_brown_text sft stb"
          data-x="720"
@@ -570,7 +570,7 @@
          data-speed="600"
          data-start="6100"
          data-easing="easeOutExpo" data-end="8100" data-endspeed="300" data-endeasing="easeInSine"><img
-            src="images/slides/drink3.jpg" alt="Image 9"></div>
+            src="<?php echo $path; ?>images/slides/drink3.jpg" alt="Image 9"></div>
 
     <div class="caption bold_green_text sft stb"
          data-x="720"
@@ -589,7 +589,7 @@
     </div>
 </li>
 <li data-transition="turnoff" data-slotamount="1" data-masterspeed="300">
-    <img src="images/slides/slide31.jpg">
+    <img src="<?php echo $path; ?>images/slides/slide31.jpg">
 
 
     <div class="caption very_large_black_text randomrotate"
@@ -621,19 +621,19 @@
          data-y="223"
          data-speed="300"
          data-start="2000"
-         data-easing="easeOutBack"><img src="images/slides/video.jpg" alt="Image 7"></div>
+         data-easing="easeOutBack"><img src="<?php echo $path; ?>images/slides/video.jpg" alt="Image 7"></div>
 
     <div class="caption sft"
          data-x="639"
          data-y="383"
          data-speed="300"
          data-start="2300"
-         data-easing="easeOutExpo" data-linktoslide="4"><img src="images/slides/videobutton.jpg" alt="Image 8"></div>
+         data-easing="easeOutExpo" data-linktoslide="4"><img src="<?php echo $path; ?>images/slides/videobutton.jpg" alt="Image 8"></div>
 </li>
 
 <!-- THE THIRD SLIDE -->
-<li data-transition="slidedown" data-slotamount="7" data-masterspeed="300" data-thumb="images/thumbs/thumb4.jpg">
-    <img src="images/slides/black.jpg">
+<li data-transition="slidedown" data-slotamount="7" data-masterspeed="300" data-thumb="<?php echo $path; ?>images/thumbs/thumb4.jpg">
+    <img src="<?php echo $path; ?>images/slides/black.jpg">
 
     <div class="caption fade fullscreenvideo" data-autoplay="false" data-x="0" data-y="0" data-speed="500"
          data-start="10" data-easing="easeOutBack">
@@ -652,9 +652,9 @@
 </li>
 
 <!-- THE FOURTH SLIDE -->
-<li data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb5.jpg">
+<li data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="<?php echo $path; ?>images/thumbs/thumb5.jpg">
 
-    <img src="images/slides/slide4.jpg">
+    <img src="<?php echo $path; ?>images/slides/slide4.jpg">
 
     <div class="caption large_text sft"
          data-x="50"
@@ -684,27 +684,27 @@
          data-y="192"
          data-speed="300"
          data-start="1400"
-         data-easing="easeOutExpo"><img src="images/slides/imac.png" alt="Image 4"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/imac.png" alt="Image 4"></div>
 
     <div class="caption lfl"
          data-x="253"
          data-y="282"
          data-speed="300"
          data-start="1500"
-         data-easing="easeOutExpo"><img src="images/slides/ipad.png" alt="Image 5"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/ipad.png" alt="Image 5"></div>
 
     <div class="caption lfl"
          data-x="322"
          data-y="313"
          data-speed="300"
          data-start="1600"
-         data-easing="easeOutExpo"><img src="images/slides/iphone.png" alt="Image 6"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/iphone.png" alt="Image 6"></div>
 </li>
 
 
 <!-- THE FIFTH SLIDE -->
-<li data-transition="flyin" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
-    <img src="images/slides/slide51.jpg">
+<li data-transition="flyin" data-slotamount="1" data-masterspeed="300" data-thumb="<?php echo $path; ?>images/thumbs/thumb6.jpg">
+    <img src="<?php echo $path; ?>images/slides/slide51.jpg">
 
     <div class="caption large_text sfl"
          data-x="38"
@@ -727,7 +727,7 @@
          data-y="174"
          data-speed="800"
          data-start="1600"
-         data-easing="easeOutExpo"><img src="images/slides/TP_logo.png" alt="Image 4"></div>
+         data-easing="easeOutExpo"><img src="<?php echo $path; ?>images/slides/TP_logo.png" alt="Image 4"></div>
 </li>
 </ul>
 

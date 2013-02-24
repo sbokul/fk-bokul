@@ -3,6 +3,9 @@
 	width:300px;
 	display:block;
 	background-color:#004FFF;
+    -moz-box-shadow: 5px 5px 2px #888;
+    -webkit-box-shadow: 5px 5px 2px #888;
+    box-shadow: 5px 5px 2px #888;
 }
 
 .events:hover {
@@ -14,6 +17,9 @@
 	width:300px;
 	display:block;
 	background-color:#ED1B24;
+    -moz-box-shadow: 5px 5px 2px #888;
+    -webkit-box-shadow: 5px 5px 2px #888;
+    box-shadow: 5px 5px 2px #888;
 }
 
 .production:hover {
@@ -25,6 +31,9 @@
 	width:300px;
 	display:block;
 	background-color:#FF6100;
+    -moz-box-shadow: 5px 5px 2px #888;
+    -webkit-box-shadow: 5px 5px 2px #888;
+    box-shadow: 5px 5px 2px #888;
 }
 
 .marketing:hover {

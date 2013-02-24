@@ -1,7 +1,7 @@
 <?php
 require_once("../cms-admin/db/dba.php");
 db_connect();
-$path="../template/bbschool/";
+$path="../template/flying-design/";
 function title()
 {
 	$title_query=query("select `title` from `global_set` limit 1");
