@@ -1,0 +1,41 @@
+.events {
+	height:200px;
+	width:300px;
+	display:block;
+	background-color:#004FFF;
+}
+
+.events:hover {
+	background-color: rgba(16, 90, 255, 0.9);
+}
+
+.production {
+	height:200px;
+	width:300px;
+	display:block;
+	background-color:#ED1B24;
+}
+
+.production:hover {
+	background-color: rgba(237, 27, 36, 0.9);
+}
+
+.marketing {
+	height:200px;
+	width:300px;
+	display:block;
+	background-color:#FF6100;
+}
+
+.marketing:hover {
+	background-color: rgba(255, 97, 0, 0.9);
+}
+
+.footer {
+	background-color:#999999;
+}
+
+.footer-text {
+	font-size:11px;
+	color:#FFFFFF;
+}
