@@ -4,7 +4,7 @@ if(!success())
 	header("location: login.php");
 require_once("db/dba.php");
 db_connect();
-if($_POST["Submit"]=='Submit')
+if($_POST)
 {
 	$password=$_POST["password"];
 	$cpassword=$_POST["cpassword"];
