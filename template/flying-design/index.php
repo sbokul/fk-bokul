@@ -20,122 +20,7 @@
     <script type="text/javascript" src="<?php echo $path; ?>js/jquery.themepunch.revolution.min.js"></script>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <style type="text/css">
-        <!--
-        body {
-            margin-left: 0px;
-            margin-top: 0px;
-            margin-right: 0px;
-            margin-bottom: 0px;
-            background-color: #FFFFFF;
-        }
 
-        body, td, th {
-            font-family: Trebuchet MS;
-        }
-
-            /* ================================================================
-           This copyright notice must be untouched at all times.
-
-           The original version of this stylesheet and the associated (x)html
-           is available at http://www.cssplay.co.uk/menus/dd_valid.html
-           Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
-           This stylesheet and the assocaited (x)html may be modified in any
-           way to fit your requirements.
-           =================================================================== */
-            /* common styling */
-        .menu {
-            font-family: "trebuchet ms", sans-serif;
-            width: 750px;
-            height: 30px;
-            position: relative;
-            font-size: 11px;
-            z-index: 100;
-        }
-
-        .menu ul li a, .menu ul li a:visited {
-            display: block;
-            text-decoration: none;
-            color: #000;
-            width: 120px;
-            height: 30px;
-            text-align: center;
-            border: 1px solid #fff;
-            background: #f2f2f2;
-            line-height: 30px;
-            font-size: 11px;
-            overflow: hidden;
-        }
-
-        .menu ul {
-            padding: 0;
-            margin: 0;
-            list-style: none;
-        }
-
-        .menu ul li {
-            float: left;
-            position: relative;
-        }
-
-        .menu ul li ul {
-            display: none;
-        }
-
-            /* specific to non IE browsers */
-        .menu ul li:hover a {
-            color: #fff;
-            background: #36f;
-        }
-
-        .menu ul li:hover ul {
-            display: block;
-            position: absolute;
-            top: 31px;
-            left: 1px;
-            width: 105px;
-        }
-
-        .menu ul li:hover ul li a.hide {
-            /*background: #6a3;*/
-            background-color: rgba(101, 168, 50, 0.4);
-            color: #fff;
-        }
-
-        .menu ul li:hover ul li:hover a.hide {
-            background: #6fc;
-            color: #000;
-        }
-
-        .menu ul li:hover ul li ul {
-            display: none;
-        }
-
-        .menu ul li:hover ul li a {
-            display: block;
-            background-color: rgba(13, 89, 149, 0.8);
-            color: #000;
-            border: 0px solid #fff;
-        }
-
-        .menu ul li:hover ul li a:hover {
-            background-color: rgba(26, 160, 255, 0.88);
-            color: #000;
-        }
-
-        .menu ul li:hover ul li:hover ul {
-            display: block;
-            position: absolute;
-            left: 105px;
-            top: 0;
-        }
-
-        .menu ul li:hover ul li:hover ul.left {
-            left: -105px;
-        }
-
-        -->
-    </style>
 </head>
 <body>
 <!--==============================header=================================-->
@@ -144,238 +29,68 @@
 <td align="center" valign="top">
 <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0">
 <tr>
-<td>
-    <table width="1000" border="0" cellspacing="0" cellpadding="0">
-        <tr>
-            <td>&nbsp;</td>
-        </tr>
-        <tr>
-            <td>
-                <table width="1000" border="0" cellspacing="0" cellpadding="0">
-                    <tr>
-                        <td width="200"><a href="/"><img src="<?php echo $path; ?>images/flying.jpg" alt="Flying Kites" width="200" height="100" border="0"></a></td>
-                        <td width="704" align="center" valign="bottom">
-                            <table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
-                                <tr>
-                                    <td valign="top">
-                                        <div class="menu">
-                                            <ul>
-                                                <li><a class="hide" href="../menu/index.html">DEMOS</a>
-
-                                                    <!--[if lte IE 6]>
-                                                    <a href="../menu/index.html">DEMOS
-                                                        <table>
-                                                            <tr>
-                                                                <td>
-                                                    <![endif]-->
-
-                                                    <ul>
-                                                        <li><a href="../menu/zero_dollars.html"
-                                                               title="The zero dollar ads page">zero dollars</a></li>
-                                                        <li><a href="../menu/embed.html"
-                                                               title="Wrapping text around images">wrapping text</a>
-                                                        </li>
-                                                        <li><a href="../menu/form.html" title="Styling forms">styled
-                                                            form</a></li>
-                                                        <li><a href="../menu/nodots.html"
-                                                               title="Removing active/focus borders">active focus</a>
-                                                        </li>
-
-                                                        <li><a href="../menu/shadow_boxing.html"
-                                                               title="Multi-position drop shadow">shadow boxing</a></li>
-                                                        <li><a href="../menu/old_master.html"
-                                                               title="Image Map for detailed information">image map</a>
-                                                        </li>
-                                                        <li><a href="../menu/bodies.html"
-                                                               title="fun with background images">fun backgrounds</a>
-                                                        </li>
-                                                        <li><a href="../menu/fade_scroll.html"
-                                                               title="fade-out scrolling">fade scrolling</a></li>
-                                                        <li><a href="../menu/em_images.html"
-                                                               title="em size images compared">em sized images</a></li>
-                                                    </ul>
-
-                                                    <!--[if lte IE 6]>
-                                                    </td></tr></table>
-                                                    </a>
-                                                    <![endif]-->
-                                                </li>
-
-                                                <li><a class="hide" href="index.html">MENUS</a>
-
-                                                    <!--[if lte IE 6]>
-                                                    <a href="index.html">MENUS
-                                                        <table>
-                                                            <tr>
-                                                                <td>
-                                                    <![endif]-->
-
-                                                    <ul>
-                                                        <li><a href="spies.html" title="a coded list of spies">spies
-                                                            menu</a></li>
-                                                        <li><a href="vertical.html" title="a horizontal vertical menu">vertical
-                                                            menu</a></li>
-                                                        <li><a href="expand.html" title="an enlarging unordered list">enlarging
-                                                            list</a></li>
-                                                        <li><a href="enlarge.html"
-                                                               title="an unordered list with link images">link
-                                                            images</a></li>
-                                                        <li><a href="cross.html" title="non-rectangular links">non-rectangular</a>
-                                                        </li>
-                                                        <li><a href="jigsaw.html" title="jigsaw links">jigsaw links</a>
-                                                        </li>
-                                                        <li><a href="circles.html" title="circular links">circular
-                                                            links</a></li>
-                                                    </ul>
-
-                                                    <!--[if lte IE 6]>
-                                                    </td></tr></table>
-                                                    </a>
-                                                    <![endif]-->
-                                                </li>
-
-                                                <li><a class="hide" href="../layouts/index.html">LAYOUTS</a>
-
-                                                    <!--[if lte IE 6]>
-                                                    <a href="../layouts/index.html">LAYOUTS
-                                                        <table>
-                                                            <tr>
-                                                                <td>
-                                                    <![endif]-->
-
-                                                    <ul>
-                                                        <li><a href="../layouts/bodyfix.html"
-                                                               title="Cross browser fixed layout">Fixed 1</a></li>
-                                                        <li><a href="../layouts/body2.html"
-                                                               title="Cross browser fixed layout">Fixed 2</a></li>
-                                                        <li><a href="../layouts/body4.html"
-                                                               title="Cross browser fixed layout">Fixed 3</a></li>
-                                                        <li><a href="../layouts/body5.html"
-                                                               title="Cross browser fixed layout">Fixed 4</a></li>
-                                                        <li><a href="../layouts/minimum.html"
-                                                               title="A simple minimum width layout">minimum width</a>
-                                                        </li>
-                                                    </ul>
-
-                                                    <!--[if lte IE 6]>
-                                                    </td></tr></table>
-                                                    </a>
-                                                    <![endif]-->
-                                                </li>
-
-                                                <li><a class="hide" href="../boxes/index.html">BOXES</a>
-
-                                                    <!--[if lte IE 6]>
-                                                    <a href="../boxes/index.html">BOXES
-                                                        <table>
-                                                            <tr>
-                                                                <td>
-                                                    <![endif]-->
-
-                                                    <ul>
-                                                        <li><a href="spies.html" title="a coded list of spies">spies
-                                                            menu</a></li>
-                                                        <li><a href="vertical.html" title="a horizontal vertical menu">vertical
-                                                            menu</a></li>
-                                                        <li><a href="expand.html" title="an enlarging unordered list">enlarging
-                                                            list</a></li>
-                                                        <li><a href="enlarge.html"
-                                                               title="an unordered list with link images">link
-                                                            images</a></li>
-                                                        <li><a href="cross.html" title="non-rectangular links">non-rectangular</a>
-                                                        </li>
-                                                        <li><a href="jigsaw.html" title="jigsaw links">jigsaw links</a>
-                                                        </li>
-                                                        <li><a href="circles.html" title="circular links">circular
-                                                            links</a></li>
-                                                    </ul>
-
-                                                    <!--[if lte IE 6]>
-                                                    </td></tr></table>
-                                                    </a>
-                                                    <![endif]-->
-                                                </li>
-
-                                                <li><a class="hide" href="../mozilla/index.html">MOZILLA</a>
-
-                                                    <!--[if lte IE 6]>
-                                                    <a href="../mozilla/index.html">MOZILLA
-                                                        <table>
-                                                            <tr>
-                                                                <td>
-                                                    <![endif]-->
-
-                                                    <ul>
-                                                        <li><a href="../mozilla/dropdown.html" title="A drop down menu">drop
-                                                            down menu</a></li>
-                                                        <li><a href="../mozilla/cascade.html" title="A cascading menu">cascading
-                                                            menu</a></li>
-                                                        <li><a href="../mozilla/content.html" title="Using content:">content:</a>
-                                                        </li>
-                                                        <li><a href="../mozilla/moxbox.html"
-                                                               title=":hover applied to a div">mozzie box</a></li>
-                                                        <li><a href="../mozilla/rainbow.html"
-                                                               title="I can build a rainbow">rainbow box</a></li>
-                                                        <li><a href="../mozilla/snooker.html" title="Snooker cue">snooker
-                                                            cue</a></li>
-                                                        <li><a href="../mozilla/target.html" title="Target Practise">target
-                                                            practise</a></li>
-                                                        <li><a href="../mozilla/splittext.html"
-                                                               title="Two tone headings">two tone headings</a></li>
-                                                        <li><a href="../mozilla/shadow_text.html" title="Shadow text">shadow
-                                                            text</a></li>
-                                                    </ul>
-
-                                                    <!--[if lte IE 6]>
-                                                    </td></tr></table>
-                                                    </a>
-                                                    <![endif]-->
-                                                </li>
-
-                                                <li><a class="hide" href="../ie/index.html">EXPLORER</a>
-
-                                                    <!--[if lte IE 6]>
-                                                    <a href="../ie/index.html">EXPLORER
-                                                        <table>
-                                                            <tr>
-                                                                <td>
-                                                    <![endif]-->
-
-                                                    <ul>
-                                                        <li><a href="../ie/exampleone.html" title="Example one">example
-                                                            one</a></li>
-                                                        <li><a href="../ie/weft.html" title="Weft fonts">weft fonts</a>
-                                                        </li>
-                                                        <li><a href="../ie/exampletwo.html" title="Vertical align">vertical
-                                                            align</a></li>
-                                                    </ul>
-
-                                                    <!--[if lte IE 6]>
-                                                    </td></tr></table>
-                                                    </a>
-                                                    <![endif]-->
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </td>
-                        <td width="96" align="right" valign="bottom">
-                            <table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
-                                <tr>
-                                    <td><img src="<?php echo $path; ?>images/facebook.png" alt="Facebook" width="32" height="32"></td>
-                                    <td><img src="<?php echo $path; ?>images/twitter.png" alt="Twitter" width="32" height="32"></td>
-                                    <td><img src="<?php echo $path; ?>images/google.png" alt="google" width="32" height="32"></td>
-                                </tr>
-                            </table>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-</td>
+    <td>
+        <table width="1000" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <table width="1000" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="200"><a href="/"><img src="<?php echo $path; ?>images/flying.jpg"
+                                                             alt="Flying Kites" width="200" height="100" border="0"></a>
+                            </td>
+                            <td width="704" align="center" valign="bottom">
+                                <table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td valign="top">
+                                            <div class="menu">
+                                                <ul>
+                                                    <?php
+                                                    $main_menu_query = query("select `menu_id`,`menu_name` from `menus` where `parent_menu_id`='0' and `is_active`='1' order by `order` asc;");
+                                                    $count = mysql_num_rows($main_menu_query);
+                                                    $i = 0;
+                                                    while ($main_menu_result = mysql_fetch_array($main_menu_query)) {
+                                                        echo '<li>';
+                                                        echo '<a class="hide" href="index.php?p_id=' . $main_menu_result['menu_id'] . '">' . $main_menu_result['menu_name'] . '</a>';
+                                                        $sub_menu_query = query("select `menu_id`,`menu_name` from `menus` where `parent_menu_id`='" . $main_menu_result['menu_id'] . "' and `is_active`='1' order by `order` asc;");
+                                                        $count_result = mysql_num_rows($sub_menu_query);
+                                                        if ($count_result > 0) {
+                                                            echo '<ul>';
+                                                        }
+                                                        while ($sub_menu_result = mysql_fetch_array($sub_menu_query)) {
+                                                            echo '<li><a href="index.php?p_id=' . $sub_menu_result['menu_id'] . '" title="' . $sub_menu_result['menu_name'] . '">' . $sub_menu_result['menu_name'] . '</a></li>';
+                                                        }
+                                                        if ($count_result > 0) {
+                                                            echo '</ul>';
+                                                        }
+                                                    }
+                                                    ?>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td width="96" align="right" valign="bottom">
+                                <table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                        <td><img src="<?php echo $path; ?>images/facebook.png" alt="Facebook" width="32"
+                                                 height="32"></td>
+                                        <td><img src="<?php echo $path; ?>images/twitter.png" alt="Twitter" width="32"
+                                                 height="32"></td>
+                                        <td><img src="<?php echo $path; ?>images/google.png" alt="google" width="32"
+                                                 height="32"></td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </td>
 </tr>
 <tr>
     <td>&nbsp;</td>
@@ -387,7 +102,13 @@
             - THEMEPUNCH BANNER -
         #################################
         -->
-
+<?php
+$content = content();
+$menu_name = $content['menu_name'];
+$con = $content['content'];
+$is_gallery = $content['is_gallery'];
+?>
+<?php if ($menu_name == "Home") { ?>
 <div class="bannercontainer">
 <div class="banner">
 <ul>
@@ -628,11 +349,13 @@
          data-y="383"
          data-speed="300"
          data-start="2300"
-         data-easing="easeOutExpo" data-linktoslide="4"><img src="<?php echo $path; ?>images/slides/videobutton.jpg" alt="Image 8"></div>
+         data-easing="easeOutExpo" data-linktoslide="4"><img src="<?php echo $path; ?>images/slides/videobutton.jpg"
+                                                             alt="Image 8"></div>
 </li>
 
 <!-- THE THIRD SLIDE -->
-<li data-transition="slidedown" data-slotamount="7" data-masterspeed="300" data-thumb="<?php echo $path; ?>images/thumbs/thumb4.jpg">
+<li data-transition="slidedown" data-slotamount="7" data-masterspeed="300"
+    data-thumb="<?php echo $path; ?>images/thumbs/thumb4.jpg">
     <img src="<?php echo $path; ?>images/slides/black.jpg">
 
     <div class="caption fade fullscreenvideo" data-autoplay="false" data-x="0" data-y="0" data-speed="500"
@@ -652,7 +375,8 @@
 </li>
 
 <!-- THE FOURTH SLIDE -->
-<li data-transition="slideleft" data-slotamount="1" data-masterspeed="300" data-thumb="<?php echo $path; ?>images/thumbs/thumb5.jpg">
+<li data-transition="slideleft" data-slotamount="1" data-masterspeed="300"
+    data-thumb="<?php echo $path; ?>images/thumbs/thumb5.jpg">
 
     <img src="<?php echo $path; ?>images/slides/slide4.jpg">
 
@@ -703,7 +427,8 @@
 
 
 <!-- THE FIFTH SLIDE -->
-<li data-transition="flyin" data-slotamount="1" data-masterspeed="300" data-thumb="<?php echo $path; ?>images/thumbs/thumb6.jpg">
+<li data-transition="flyin" data-slotamount="1" data-masterspeed="300"
+    data-thumb="<?php echo $path; ?>images/thumbs/thumb6.jpg">
     <img src="<?php echo $path; ?>images/slides/slide51.jpg">
 
     <div class="caption large_text sfl"
@@ -734,8 +459,28 @@
 <div class="tp-bannertimer tp-bottom"></div>
 </div>
 </div>
+<?php } ?>
 </td>
 </tr>
+<tr>
+    <td>&nbsp;</td>
+</tr>
+<?php
+if ($menu_name != "Home") {
+?>
+<tr>
+    <td style="background-color: #dddddd;">
+        <div class="contant">
+            <?php
+            if ($menu_name != "Home")
+                echo $con;
+            ?>
+        </div>
+    </td>
+</tr>
+<?php
+}
+?>
 <tr>
     <td>&nbsp;</td>
 </tr>
@@ -744,15 +489,51 @@
         <table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
                 <td width="300">
-                    <div class="events"></div>
+                    <div class="events">
+                        <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
+                            <tr>
+                                <td style="color: #FFF;font-weight: bold;font-size: 16px;">Events</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 130px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center;"><a href="http://events.flyingkites.local.com" class="box-links">Enter</a></td>
+                            </tr>
+                        </table>
+                    </div>
                 </td>
                 <td>&nbsp;</td>
                 <td width="300">
-                    <div class="production"></div>
+                    <div class="production">
+                        <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
+                            <tr>
+                                <td style="color: #FFF;font-weight: bold;font-size: 14px;">Production</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 130px;"></td>
+                            </tr>
+                            <tr>
+                                <td><a href="http://production.flyingkites.local.com" class="box-links2">Enter</a></td>
+                            </tr>
+                        </table>
+                    </div>
                 </td>
                 <td>&nbsp;</td>
                 <td width="300">
-                    <div class="marketing"></div>
+                    <div class="marketing">
+                        <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
+                            <tr>
+                                <td style="color: #FFF;font-weight: bold;font-size: 14px;">Marketing</td>
+                            </tr>
+                            <tr>
+                                <td style="height: 130px;"></td>
+                            </tr>
+                            <tr>
+                                <td><a href="http://marketing.flyingkites.local.com" class="box-links3">Enter</a></td>
+                            </tr>
+                        </table>
+                    </div>
                 </td>
             </tr>
         </table>
