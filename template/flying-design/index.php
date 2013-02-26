@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
     <title><?php echo title(); ?></title>
-    <meta charset="utf-8">
-    <meta name="author" content="Cocktail Dresses">
+    <?php
+        echo meta();
+    ?>
+    <!--<meta charset="utf-8">
+    <meta name="author" content="Cocktail Dresses">-->
     <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" href="<?php echo $path; ?>css/main.css">
