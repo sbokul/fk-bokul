@@ -45,7 +45,8 @@
                             <td width="200"><a href="/"><img src="<?php echo $path; ?>images/flying.jpg"
                                                              alt="Flying Kites" width="200" height="100" border="0"></a>
                             </td>
-                            <td width="704" align="center" valign="bottom">
+                            <td style="width: 20px;">&nbsp;</td>
+                            <td width="684" align="center" valign="bottom">
                                 <table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
                                     <tr>
                                         <td valign="top">
@@ -76,7 +77,7 @@
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td height="5"></td>
+                                        <td height="4"></td>
                                     </tr>
                                 </table>
                             </td>
