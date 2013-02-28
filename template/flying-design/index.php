@@ -492,51 +492,60 @@ if ($menu_name != "Home") {
         <table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
                 <td width="300">
-                    <div class="events">
-                        <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
-                            <tr>
-                                <td style="color: #FFF;font-weight: bold;font-size: 16px;">Events</td>
-                            </tr>
-                            <tr>
-                                <td style="height: 130px;"></td>
-                            </tr>
-                            <tr>
-                                <td style="text-align: center;"><a href="http://events.flyingkites.local.com" class="box-links">Enter</a></td>
-                            </tr>
-                        </table>
-                    </div>
+                    <a href="http://events.flyingkites.local.com" style="text-decoration: none;">
+                        <div class="events">
+                            <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
+                                <tr>
+                                    <td style="color: #FFF;font-weight: bold;font-size: 16px;">Events</td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 130px;"></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"><a href="http://events.flyingkites.local.com"
+                                                                       class="box-links">Enter</a></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </a>
                 </td>
                 <td>&nbsp;</td>
                 <td width="300">
-                    <div class="production">
-                        <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
-                            <tr>
-                                <td style="color: #FFF;font-weight: bold;font-size: 14px;">Production</td>
-                            </tr>
-                            <tr>
-                                <td style="height: 130px;"></td>
-                            </tr>
-                            <tr>
-                                <td><a href="http://production.flyingkites.local.com" class="box-links2">Enter</a></td>
-                            </tr>
-                        </table>
-                    </div>
+                    <a href="http://production.flyingkites.local.com" style="text-decoration: none;">
+                        <div class="production">
+                            <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
+                                <tr>
+                                    <td style="color: #FFF;font-weight: bold;font-size: 14px;">Production</td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 130px;"></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://production.flyingkites.local.com" class="box-links2">Enter</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </a>
                 </td>
                 <td>&nbsp;</td>
                 <td width="300">
-                    <div class="marketing">
-                        <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
-                            <tr>
-                                <td style="color: #FFF;font-weight: bold;font-size: 14px;">Marketing</td>
-                            </tr>
-                            <tr>
-                                <td style="height: 130px;"></td>
-                            </tr>
-                            <tr>
-                                <td><a href="http://marketing.flyingkites.local.com" class="box-links3">Enter</a></td>
-                            </tr>
-                        </table>
-                    </div>
+                    <a href="http://marketing.flyingkites.local.com" style="text-decoration: none;">
+                        <div class="marketing">
+                            <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
+                                <tr>
+                                    <td style="color: #FFF;font-weight: bold;font-size: 14px;">Marketing</td>
+                                </tr>
+                                <tr>
+                                    <td style="height: 130px;"></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="http://marketing.flyingkites.local.com" class="box-links3">Enter</a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </a>
                 </td>
             </tr>
         </table>
