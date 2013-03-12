@@ -42,8 +42,8 @@
                 <td>
                     <table width="1000" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td width="200"><a href="/"><img src="<?php echo $path; ?>images/flying.jpg"
-                                                             alt="Flying Kites" width="200" height="100" border="0"></a>
+                            <td width="200"><a href="/">
+                                <img src="<?php echo $path; ?>images/logo.png" alt="Flying Kites" width="200" height="100" border="0"></a>
                             </td>
                             <td style="width: 20px;">&nbsp;</td>
                             <td width="684" align="center" valign="bottom">
@@ -84,8 +84,8 @@
                             <td width="96" align="right" valign="bottom">
                                 <table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
                                     <tr>
-                                        <td><img src="<?php echo $path; ?>images/facebook.png" alt="Facebook" width="32"
-                                                 height="32"></td>
+                                        <td><a href="https://www.facebook.com/flyingkitesltd"><img src="<?php echo $path; ?>images/facebook.png" alt="Facebook" width="32"
+                                                 height="32" border="0"></a></td>
                                         <td><img src="<?php echo $path; ?>images/twitter.png" alt="Twitter" width="32"
                                                  height="32"></td>
                                         <td><img src="<?php echo $path; ?>images/google.png" alt="google" width="32"

@@ -41,7 +41,7 @@
                 <td>
                     <table width="1000" border="0" cellspacing="0" cellpadding="0">
                         <tr>
-                            <td width="200"><a href="/"><img src="<?php echo $path; ?>images/flying.jpg"
+                            <td width="200"><a href="/"><img src="<?php echo $path; ?>images/logo.png"
                                                              alt="Flying Kites" width="200" height="100" border="0"></a>
                             </td>
                             <td width="704" align="center" valign="bottom">
@@ -79,8 +79,8 @@
                             <td width="96" align="right" valign="bottom">
                                 <table width="0" border="0" align="right" cellpadding="0" cellspacing="0">
                                     <tr>
-                                        <td><img src="<?php echo $path; ?>images/facebook.png" alt="Facebook" width="32"
-                                                 height="32"></td>
+                                        <td><a href="https://www.facebook.com/flyingkitesltd"><img src="<?php echo $path; ?>images/facebook.png" alt="Facebook" width="32"
+                                                 height="32" border="0"></a></td>
                                         <td><img src="<?php echo $path; ?>images/twitter.png" alt="Twitter" width="32"
                                                  height="32"></td>
                                         <td><img src="<?php echo $path; ?>images/google.png" alt="google" width="32"
@@ -145,18 +145,17 @@ if ($menu_name != "Home") {
         <table width="960" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
                 <td width="300">
-                    <a href="http://events.flyingkites.local.com" style="text-decoration: none;">
+                    <a href="http://events.flyingkitesltd.com/" style="text-decoration: none;">
                         <div class="events">
                             <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
                                 <tr>
                                     <td style="color: #FFF;font-weight: bold;font-size: 16px;">Events</td>
                                 </tr>
                                 <tr>
-                                    <td style="height: 130px;"></td>
+                                    <td style="height: 130px;text-align: right;"><img src="<?php echo $path; ?>images/events.png"></td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center;"><a href="http://events.flyingkites.local.com"
-                                                                       class="box-links">Enter</a></td>
+                                    <td style="text-align: center;"></td>
                                 </tr>
                             </table>
                         </div>
@@ -164,17 +163,17 @@ if ($menu_name != "Home") {
                 </td>
                 <td>&nbsp;</td>
                 <td width="300">
-                    <a href="http://production.flyingkites.local.com" style="text-decoration: none;">
+                    <a href="http://production.flyingkitesltd.com/" style="text-decoration: none;">
                         <div class="production">
                             <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
                                 <tr>
-                                    <td style="color: #FFF;font-weight: bold;font-size: 14px;">Production</td>
+                                    <td style="color: #FFF;font-weight: bold;font-size: 14px;">Media & Production</td>
                                 </tr>
                                 <tr>
-                                    <td style="height: 130px;"></td>
+                                    <td style="height: 130px;text-align: right;"><img src="<?php echo $path; ?>images/media.png"></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://production.flyingkites.local.com" class="box-links2">Enter</a>
+                                    <td>
                                     </td>
                                 </tr>
                             </table>
@@ -183,17 +182,17 @@ if ($menu_name != "Home") {
                 </td>
                 <td>&nbsp;</td>
                 <td width="300">
-                    <a href="http://marketing.flyingkites.local.com" style="text-decoration: none;">
+                    <a href="http://marketing.flyingkitesltd.com/" style="text-decoration: none;">
                         <div class="marketing">
                             <table style="width: 100%;border: 0 none;padding: 0;margin: 0;">
                                 <tr>
                                     <td style="color: #FFF;font-weight: bold;font-size: 14px;">Marketing</td>
                                 </tr>
                                 <tr>
-                                    <td style="height: 130px;"></td>
+                                    <td style="height: 130px;text-align: right;"><img src="<?php echo $path; ?>images/marketing-img.png"></td>
                                 </tr>
                                 <tr>
-                                    <td><a href="http://marketing.flyingkites.local.com" class="box-links3">Enter</a>
+                                    <td>
                                     </td>
                                 </tr>
                             </table>
